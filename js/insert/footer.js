@@ -15,18 +15,18 @@ let footer = `
                 <li><a href="https://discord.gg/dhyV3BXkRZ" target="_blank">Discord</a></li>
                 <li><a href="https://github.com/Games-With-Gabe-Community" target="_blank">Github</a></li>
                 <li><a href="https://www.youtube.com/channel/UCQP4qSCj1eHMHisDDR4iPzw" target="_blank">YouTube</a></li>
-
-                <li><label class="switch tooltip">                
-                    <input type="checkbox" id="dark" onclick="toggleDark()">
-                    <span class="slider round"></span>
-                    <span class="tooltiptext">Dark Mode</span>
-                </li></label>             
             </ul>
         </nav>
         <br>
     </div>
 </footer>
 `;
+
+// <li><label class="switch tooltip">                
+//     <input type="checkbox" id="dark" onclick="toggleDark()">
+//     <span class="slider round"></span>
+//     <span class="tooltiptext">Dark Mode</span>
+// </li></label>    
 
 add("body", footer);
 

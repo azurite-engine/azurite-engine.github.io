@@ -314,6 +314,7 @@
     .card li {
         list-style: none;
         margin-left: 15px;
+        list-style-type: none;
     }
     
     .button {
@@ -357,9 +358,10 @@
         background: white;
         color: rgb(60, 98, 168);
     }
-    
+
     .legend-card ul li {
         margin: 5px 0px;
+        list-style-type: none;
     }
 
     .legend-card a {
@@ -425,6 +427,7 @@
     .card li {
         list-style: circle;
         margin-left: 30px;
+        list-style-type: none;
     }
     /* Footer */
     
@@ -481,6 +484,7 @@
     
     .footer li {
         margin-top: 20px;
+        list-style-type: none;
     }
     
     .footer a:hover {
@@ -766,7 +770,7 @@ https://codepen.io/romgerman/pen/xOZrZB
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1020px) {
     .column {
         width: 100%;
         display: block;
